@@ -1,0 +1,24 @@
+javac -encoding UTF-8 -cp "lib/*" -d bin src\db\*.java src\util\*.java src\ui\*.java
+
+java -cp "bin;lib/*" ui.DatabaseSelector
+
+
+java -cp "UserVerification.jar;lib/*" ui.DatabaseSelector
+
+
+
+process to create jar file
+
+dir /s /b src\*.java > sources.txt
+
+javac -d out -cp "lib/*" @sources.txt
+
+jar cfm UserVerification.jar META-INF\MANIFEST.MF -C out .
+
+@echo off
+java -cp "UserVerification.jar;lib/*" ui.DatabaseSelector
+pause
+
+
+
+

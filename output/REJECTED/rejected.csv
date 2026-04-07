@@ -1,0 +1,3 @@
+mobile_no,term_sl_no,caf_no,name,father_name,address,perm_address,imsi,activation_date,dynatos_status,remarks,status,Remarks,Status
+9876543210,10,caf12345,Yaseer,HumaYUN,chennai tamil nadu,chennai tamil nadu,823941293791,2023-09-12,Active,Verified successfully,ACCEPTED,lwnflwnfl,REJECTED
+9876543210,10,caf12345,Yaseer,HumaYUN,chennai tamil nadu,chennai tamil nadu,823941293791,2023-09-12,Active,Verified successfully,ACCEPTED,,REJECTED
